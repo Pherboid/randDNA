@@ -12,7 +12,7 @@ string randDNA (int seed,string bases, int n){
   int max = 0;
   //protection from empty strings
   if (bases == ""){
-    //do nothing max is already 0
+    return "";
   }
   else {
     max = bases.size()-1;
